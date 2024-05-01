@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(248, 248, 247);
+
+}
+.logo{
+    height: 16vh;
+    width: 16vw;
+    padding: 3%;
+}
+.box{
+    background: white;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 30vw;
+    height:60vh;
+    
+}
+input{
+    height: fit-content;
+    width: 25vw;
+    padding: 2.5%;
+    border: 1px solid rgb(34, 33, 33);
+    border-radius: 3px;
+    background-color:white;
+    margin-bottom: 2%;
+    outline: none;
+}
+#but {
+    height: fit-content;
+    width: 25vw;
+    padding: 2.2%;
+    border-radius: 8px;
+    background-color: #56bbfa;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 3%;
+}
+.or{
+    display: flex;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.line{
+    height: 0.5px;
+    width: 8vw;
+    border:0.5px solid rgb(173, 171, 171);
+}
+a{
+    color: #56bbfa;
+}
+.for{
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+.fb{
+    height: 2.5vh;
+    width: 2.5vh;
+    padding: 0.5px;
+    background-color:  rgb(34, 34, 94);
+}
+.lfb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.f_log{
+    text-decoration: none;
+    color: rgb(7, 7, 77);
+    margin-left: 5px;
+}
+.do_box {
+    background: white;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 1px;
+    padding: 1.5%;
+    border-radius: 1px;
+    width: 30vw;
+  }
+  .sign{
+    color: rgb(9, 129, 250);
+    margin-left: 5px;
+    font-size:16px;
+  }
+.get{
+    text-align: center;
+    padding: 2%;
+}
+.text {
+    font-size:larger;
+  }
+  .img{
+    height: 6vh;
+    width: 10vw;
+  }
